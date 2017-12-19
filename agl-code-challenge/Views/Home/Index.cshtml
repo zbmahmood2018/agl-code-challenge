@@ -1,0 +1,24 @@
+﻿@model Dictionary<string,List<string>>
+
+@{
+    ViewData["Title"] = "AGL Code Challenge";
+}
+
+
+@if (Model == null || !Model.Any())
+{
+    <h3>No data exists</h3>
+}
+else
+{
+    foreach (var item in Model)
+    {
+        <h3>@item.Key</h3>
+        <ul>
+            @foreach (var name in item.Value)
+            {
+                <li>@name</li>
+            }
+        </ul>
+    }
+}

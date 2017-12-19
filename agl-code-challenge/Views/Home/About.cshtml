@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+
+<h3>Programming challenge</h3>
+<p>
+    A json web service has been set up at the url: <a href="http://agl-developer-test.azurewebsites.net/people.json">http://agl-developer-test.azurewebsites.net/people.json</a>
+</p>
+
+<p>Need to write some code to consume the json and output a list of all the cats in alphabetical order under a heading of the gender of their owner.</p>
+
+<h4>Example:</h4>
+<h5>Male</h5>
+<ul>
+    <li>Angel</li>
+    <li>Molly</li>
+    <li>Tigger</li>
+</ul>
+<h5>Female</h5>
+<ul>
+    <li>Gizmo</li>
+    <li>Jasper</li>
+</ul>
+
+<h4>Development Tool and Libraries</h4>
+<ul>
+    <li>Development Language: <strong>ASP .NET Core C#</strong></li>
+    <li>Unit Testing Framework: <strong>XUnit</strong></li>
+    <li>Web Service Library: <strong>HttpClient</strong></li>
+    <li>Json Parse Library: <strong>Newtonsoft.Json</strong></li>
+    <li>IDE: <strong>Visual Studio 2017</strong></li>
+    <li>GitHub Link: <a href="https://github.com/zbmahmood2018/agl-code-challenge">GitHub</a></li>
+</ul>
+
+<h4>Description</h4>
+<p>The solution consist of two projects 
+    <ul>
+        <li><strong>agl-code-challenge: </strong>Containing Source Code and actual implementation</li>
+        <li><strong>agl-code-challenge.tests: </strong>Containing unit tests</li>
+    </ul>
+</p>
+
+<h4>Deployment and Testing</h4>
+
+<p>Make sure you have .NET Core installed in your machine <a href="https://www.microsoft.com/net/learn/get-started/windows">See Guide</a> </p>
+<p>In command terminal go the same location as the solution and execute the following commands</p>
+<strong>Deploy application command</strong>
+<p>dotnet restore</p>
+<strong>Run unit tests</strong>
+<p>dotnet test</p>
+
+<h4>Running the application</h4>
+<p>In command terminal set the current directory <strong>same as project</strong> {not solution} and run the following command</p>
+<p>dotnet run</p>
+<p>Once the application successfully ran it, open up the broswer and put the URL as  <a href="http://localhost:57149">http://localhost:57149</a> or whatever listening port mentioned in the command line</p>
