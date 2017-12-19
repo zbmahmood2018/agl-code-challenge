@@ -6,46 +6,46 @@ A json web service has been set up at the url: [Json link](http://agl-developer-
 Need to write some code to consume the json and output a list of all the cats in alphabetical order under a heading of the gender of their owner.
 ```
 Example:
-* Male
-  * Angel
-  * Molly
-  * Tigger
-* Female
-  * Gizmo
-  * Jasper
+- Male
+    Angel
+    Molly
+    Tigger
+- Female
+    Gizmo
+    Jasper
 ```
 
 ## Development Tool and Libraries
 
-**Development Language:** ASP .NET Core C#
-**Unit Testing Framework:** XUnit
-**Web Service Library:** HttpClient
-**Json Parse Library:** Newtonsoft.Json
-**IDE:** Visual Studio 2017
-**GitHub Link:** [GitHub](https://github.com/zbmahmood2018/agl-code-challenge)
+* **Development Language:** ASP .NET Core C#
+* **Unit Testing Framework:** XUnit
+* **Web Service Library:** HttpClient
+* **Json Parse Library:** Newtonsoft.Json
+* **IDE:** Visual Studio 2017
+* **GitHub Link:** [GitHub](https://github.com/zbmahmood2018/agl-code-challenge)
 
-##Description
+## Description
 The solution consist of two projects
 
 * **agl-code-challenge:** Containing Source Code and actual implementation
 * **agl-code-challenge.tests:** Containing unit tests
 
-##Deployment and Testing
+## Deployment and Testing
 Make sure you have .NET Core installed in your machine See Guide
 
 In command terminal go the same location as the solution and execute the following commands
 
-###Deploy application command
+### Deploy application command
 ```
 dotnet restore
 ```
 
-###Run unit tests
+### Run unit tests
 ```
 dotnet test
 ```
 
-##Running the application
+## Running the application
 In command terminal set the current directory same as project {not solution} and run the following command
 ```
 dotnet run
