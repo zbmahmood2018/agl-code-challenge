@@ -30,6 +30,11 @@ The solution consist of two projects
 * **agl-code-challenge:** Containing Source Code and actual implementation
 * **agl-code-challenge.tests:** Containing unit tests
 
+## Pre-Requisites
+* Visual Studio 2017 15.3.3 or later
+* .NET Core SDK 2.0 or later
+* NuGet.Commandline 4.3 or later
+
 ## Deployment and Testing
 Make sure you have .NET Core installed in your machine See Guide
 
